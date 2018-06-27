@@ -1,0 +1,13 @@
+{
+  "name": "crypto-wasm",
+  "author": {
+    "name": "LongYinan",
+    "email": "lynweklm@gmail.com"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "crypto-js": "^3.1.9-1",
+    "microtime": "^2.1.8"
+  },
+  "license": "MIT"
+}

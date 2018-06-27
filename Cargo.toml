@@ -1,0 +1,14 @@
+[package]
+name = "crypto-wasm"
+version = "0.1.0"
+authors = ["LongYinan <lynweklm@gmail.com>"]
+license = "MIT"
+description = "rust-crypto wasm version"
+repository = "https://github.com/Brooooooklyn/crypto-wasm"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rust-crypto-wasm = "0.3"
+wasm-bindgen = "0.2"
