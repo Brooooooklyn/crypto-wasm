@@ -10,18 +10,18 @@ const fixture = 'hello world!' // fs.readFileSync('./bench/fixture.json').toStri
 const md5Binding = bindings.md5
 const suite = new Benchmark.Suite
 
-suite.add('sha1#native', () => {
+suite.add('md5#native', () => {
   const hasher = createHash('md5')
   hasher.update(fixture)
   hasher.digest('hex')
 })
-  .add('sha1#wasm', () => {
+  .add('md5#wasm', () => {
     md5(fixture)
   })
-  .add('sha1#js', () => {
+  .add('md5#js', () => {
     MD5(fixture).toString()
   })
-  .add('sha1#binding', () => {
+  .add('md5#binding', () => {
     md5Binding(fixture)
   })
   .on('cycle', function(event) {
