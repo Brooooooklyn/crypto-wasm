@@ -1,7 +1,7 @@
 const fs = require('fs')
 const Benchmark = require('benchmark')
 const { createHash } = require('crypto')
-const { sha256 } = require('../pkg')
+const { sha256 } = require('crypto-wasm')
 const { SHA256 } = require('crypto-js')
 const bindings = require('crypto-node')
 

@@ -1,6 +1,6 @@
 const Benchmark = require('benchmark')
-const { md5 } = require('../pkg')
 const { createHash } = require('crypto')
+const { md5 } = require('crypto-wasm')
 const { MD5 } = require('crypto-js')
 const bindings = require('crypto-node')
 const fs = require('fs')
