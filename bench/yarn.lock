@@ -395,9 +395,9 @@ crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
 
-crypto-wasm@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/crypto-wasm/-/crypto-wasm-0.1.0.tgz#277d9dc227f394193a35dc96a11d9cd594858aec"
+crypto-wasm@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/crypto-wasm/-/crypto-wasm-0.1.1.tgz#ae13b8fb95b62c69db7099a40ca672e99ee2435f"
 
 dashdash@^1.12.0:
   version "1.14.1"
