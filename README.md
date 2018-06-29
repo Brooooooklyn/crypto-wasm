@@ -37,5 +37,4 @@ wasm-pack init -t nodejs
 
 ## Benchmark
 - yarn
-- copy index.node from https://github.com/Brooooooklyn/node-crypto to bench/binding.node
 - node bench/{md5|sha256}

@@ -2,7 +2,7 @@ const Benchmark = require('benchmark')
 const { md5 } = require('../pkg')
 const { createHash } = require('crypto')
 const { MD5 } = require('crypto-js')
-const bindings = require('./binding')
+const bindings = require('crypto-node')
 const fs = require('fs')
 
 const fixture = 'hello world!' // fs.readFileSync('./bench/fixture.json').toString()

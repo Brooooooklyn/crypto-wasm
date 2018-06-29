@@ -3,7 +3,7 @@ const Benchmark = require('benchmark')
 const { createHash } = require('crypto')
 const { sha256 } = require('../pkg')
 const { SHA256 } = require('crypto-js')
-const bindings = require('./binding')
+const bindings = require('crypto-node')
 
 const sha256Binding = bindings.sha256
 const sha256Asm = bindings.sha256Asm
